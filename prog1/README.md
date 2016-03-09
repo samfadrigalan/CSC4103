@@ -11,7 +11,6 @@ The outputs a log file for the Producer and Consumer thread events. The format o
 ```
 <Timestamp (in nanoseconds)> <Thread type (“Producer” or “Consumer”)> <Thread ID> <Buffer Entry Index> <Item>
 ```
+4. Run `make clean` to delete executables and log files.
 ## Comments
 There are some issues with >1000 items to produce.
-
-4. Run `make clean` to delete executables and log files.
